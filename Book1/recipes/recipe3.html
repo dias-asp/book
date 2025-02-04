@@ -2,9 +2,96 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Мясо по-Французски</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        table {
+            border-spacing: 20px;
+        }
+        ul {
+            list-style-type: none;
+            gap: 20px;
+        }
+        ul li {
+            margin-bottom: 20px;
+        }
+        input[type=checkbox]:checked + label {
+            text-decoration: line-through;
+        }
+    </style>
 </head>
 <body>
+<h1>Мясо по-Французски</h1>
 
+<!--
+<table>
+    <thead>
+    <tr>
+        <th>Ингредиенты</th>
+        <th>Количество</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            <input type="checkbox" id="1">
+            <label for="1">Яблоки</label>
+        </td>
+        <td>
+            <label for="1">1кг</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="2">
+            <label for="2">Апельсины</label>
+        </td>
+        <td>
+            <label for="2">2шт</label>
+        </td>
+    </tr>
+    </tbody>
+</table>
+-->
+
+<h3>Шаги приготовления</h3>
+
+<ul>
+    <li>
+        <input type="checkbox" id="step1">
+        <label for="step1">Нарезать мясо пластами, хорошо отбить, посолить, поперчить и обмазать майонезом</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step2">
+        <label for="step2">Картошку нарезать тонкими пластами или крупной соломкой</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step3">
+        <label for="step3">Лук нарезать полукольцами и выложить на дно сковородки</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step4">
+        <label for="step4">Сверху выложить отбитое мясо</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step5">
+        <label for="step5">Выложить картошку</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step6">
+        <label for="step6">Добавить немного майонеза, можно помидоры</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step7">
+        <label for="step7">Обильно натереть сыр</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step8">
+        <label for="step8">Поставить на медленный огонь в духовку на 1-1.5 ч.</label>
+    </li>
+</ul>
 </body>
 </html>
