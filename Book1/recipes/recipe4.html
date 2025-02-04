@@ -2,9 +2,152 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Кукси</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        table {
+            border-spacing: 20px;
+        }
+        ul {
+            list-style-type: none;
+            gap: 20px;
+        }
+        ul li {
+            margin-bottom: 20px;
+        }
+        input[type=checkbox]:checked + label {
+            text-decoration: line-through;
+        }
+    </style>
 </head>
 <body>
+<h1>Кукси</h1>
 
+<table>
+    <thead>
+    <tr>
+        <th>Ингредиенты</th>
+        <th>Количество</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            <input type="checkbox" id="1">
+            <label for="1">Говядина или курица</label>
+        </td>
+        <td>
+            <label for="1">2кг</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="2">
+            <label for="2">Огурцы</label>
+        </td>
+        <td>
+            <label for="2">2кг</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="3">
+            <label for="3">Капуста белокочанная</label>
+        </td>
+        <td>
+            <label for="3">1 велок</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="4">
+            <label for="4">Яйца</label>
+        </td>
+        <td>
+            <label for="4">10шт</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="5">
+            <label for="5">Лапша корейская</label>
+        </td>
+        <td>
+            <label for="5">2кг</label>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" style="font-weight: bold; text-align: center;">Салат из огурцов</td>
+    </tr>
+
+    <tr>
+        <td>
+            <input type="checkbox" id="6">
+            <label for="6">Полугорький перец</label>
+        </td>
+        <td>
+            <label for="6">2ч.л.</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="7">
+            <label for="7">Чеснок</label>
+        </td>
+        <td>
+            <label for="7">4 зуб.</label>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" style="font-weight: bold; text-align: center;">Салат из капусты</td>
+    </tr>
+    </tbody>
+</table>
+
+
+<h3>Шаги приготовления</h3>
+
+<ul>
+    <li>
+        <input type="checkbox" id="step1">
+        <label for="step1">Лапшу отварить в большом количестве подсоленой воды</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step2">
+        <label for="step2">Лапшу промыть и выложить на поднос, разложив по порциям</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step3">
+        <label for="step3">Курицу разделить на кусочки и отварить</label>
+    </li>
+    <h4>Салат из огурцов</h4>
+    <li>
+        <input type="checkbox" id="step4">
+        <label for="step4">Огурцы порезать тонкими полукольцами, посолить ~1ст.л.</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step5">
+        <label for="step5">Выделившийся сок вылить</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step6">
+        <label for="step6">Добавить 1 пучок мелконарезанной капусты, полугорький перец, растительное масло, черный перец, белую приправу, уксус ~1ч.л., сою по вкусу, чеснок.</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step7">
+        <label for="step7">Все тчательно перемешать</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step8">
+        <label for="step8">Добавить к яблокам и варить 15 мин.</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step9">
+        <label for="step9">Остудить и взбить в блендере</label>
+    </li>
+</ul>
 </body>
 </html>
