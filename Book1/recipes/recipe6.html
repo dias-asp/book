@@ -2,9 +2,140 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Огурцы по-корейски</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+        table {
+            border-spacing: 20px;
+        }
+        ul {
+            list-style-type: none;
+            gap: 20px;
+        }
+        ul li {
+            margin-bottom: 20px;
+        }
+        input[type=checkbox] {
+            width: 30px; /* Ширина чекбокса */
+            height: 30px; /* Высота чекбокса */
+            margin-right: 10px;
+        }
+        input[type=checkbox]:checked + label {
+            text-decoration: line-through;
+        }
+    </style>
 </head>
 <body>
+<h1>Огурцы по-корейски</h1>
 
+<table>
+    <thead>
+    <tr>
+        <th>Ингредиенты</th>
+        <th>Количество</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            <input type="checkbox" id="1">
+            <label for="1">Огурцы</label>
+        </td>
+        <td>
+            <label for="1">1 кг</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="2">
+            <label for="2">Мясо нежирное, без жилок</label>
+        </td>
+        <td>
+            <label for="2">400 гр</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="3">
+            <label for="3">Растительное масло</label>
+        </td>
+        <td>
+            <label for="3">1 неполный стакан</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="4">
+            <label for="4">Морковь небольшая</label>
+        </td>
+        <td>
+            <label for="4">2 шт</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="5">
+            <label for="5">Чеснок</label>
+        </td>
+        <td>
+            <label for="5">2 зуб</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="6">
+            <label for="6">Кориандр</label>
+        </td>
+        <td>
+            <label for="6">0.25 ч.л.</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="7">
+            <label for="7">Кинза</label>
+        </td>
+        <td>
+            <label for="7">1 пучок</label>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<h3>Шаги приготовления</h3>
+
+<ul>
+    <li>
+        <input type="checkbox" id="step1">
+        <label for="step1">Мясо порезать соломкой</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step2">
+        <label for="step2">Мясо поставить тушиться в растительном масле на медленном огне</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step3">
+        <label for="step3">По готовности посолить, добавить приправы</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step4">
+        <label for="step4">Огурцы порезать, посолить (1 ст.л.)</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step5">
+        <label for="step5">Выделившийся сок вылить 2-3 р., выжать огурцы</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step6">
+        <label for="step6">Натереть морковь, добавить в огурцы и хорошо перемешать</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step7">
+        <label for="step7">Добавить чеснок, уксус, потушенное мясо, сою 2ст.л., мелко нарезанную кинзу, 0.5 ч.л. сахара</label>
+    </li>
+</ul>
 </body>
 </html>

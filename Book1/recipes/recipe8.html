@@ -2,9 +2,115 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Салат "Океан"</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+        table {
+            border-spacing: 20px;
+        }
+        ul {
+            list-style-type: none;
+            gap: 20px;
+        }
+        ul li {
+            margin-bottom: 20px;
+        }
+        input[type=checkbox] {
+            width: 30px; /* Ширина чекбокса */
+            height: 30px; /* Высота чекбокса */
+            margin-right: 10px;
+        }
+        input[type=checkbox]:checked + label {
+            text-decoration: line-through;
+        }
+    </style>
 </head>
 <body>
+<h1>Салат "Океан"</h1>
 
+<table>
+    <thead>
+    <tr>
+        <th>Ингредиенты</th>
+        <th>Количество</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            <input type="checkbox" id="1">
+            <label for="1">Крабовые палочки</label>
+        </td>
+        <td>
+            <label for="1">1 п.</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="2">
+            <label for="2">Яйца</label>
+        </td>
+        <td>
+            <label for="2">2 шт</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="3">
+            <label for="3">Помидоры</label>
+        </td>
+        <td>
+            <label for="3">3 шт</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="4">
+            <label for="4">Огурцы</label>
+        </td>
+        <td>
+            <label for="4">1 шт</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="5">
+            <label for="5">Оливки зеленые с перцем</label>
+        </td>
+        <td>
+            <label for="5"></label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="6">
+            <label for="6">Листья салата</label>
+        </td>
+        <td>
+            <label for="6"></label>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<h3>Шаги приготовления</h3>
+
+<ul>
+    <li>
+        <input type="checkbox" id="step1">
+        <label for="step1">Нарезать все ингредиенты на крупные кубики</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step2">
+        <label for="step2">Заправить растительным маслом</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step3">
+        <label for="step3">Добавить соль, перец, майонез</label>
+    </li>
+</ul>
 </body>
 </html>

@@ -2,9 +2,120 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Гуляш</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+        table {
+            border-spacing: 20px;
+        }
+        ul {
+            list-style-type: none;
+            gap: 20px;
+        }
+        ul li {
+            margin-bottom: 20px;
+        }
+        input[type=checkbox] {
+            width: 30px; /* Ширина чекбокса */
+            height: 30px; /* Высота чекбокса */
+            margin-right: 10px;
+        }
+        input[type=checkbox]:checked + label {
+            text-decoration: line-through;
+        }
+    </style>
 </head>
 <body>
+<h1>Гуляш в мультиварке</h1>
+<!--
+<table>
+    <thead>
+    <tr>
+        <th>Ингредиенты</th>
+        <th>Количество</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            <input type="checkbox" id="1">
+            <label for="1">Яблоки</label>
+        </td>
+        <td>
+            <label for="1">1кг</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="2">
+            <label for="2">Апельсины</label>
+        </td>
+        <td>
+            <label for="2">2шт</label>
+        </td>
+    </tr>
+    </tbody>
+</table>
+-->
 
+<h3>Шаги приготовления</h3>
+
+<ul>
+    <li>
+        <input type="checkbox" id="step1">
+        <label for="step1">Мясо нарезать ломтиками</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step2">
+        <label for="step2">В мультиварку налить 2 ст.л. растительного масла, поставить на режим "Выпечка"</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step3">
+        <label for="step3">Потушить мясо до образования пены и жидкости (10 мин)</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step4">
+        <label for="step4">Поставить на режим "Тушение" (40 мин)</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step5">
+        <label for="step5">Снова поставить режим "Выпечка", чтобы мясо начало поджариваться</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step6">
+        <label for="step6">Добавить репчатый лук (1 головку) мелко нарезанный</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step7">
+        <label for="step7">Жарить до золотистой корочки</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step8">
+        <label for="step8">Добавить 1-1.5 стак. воды, довести до кипения</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step9">
+        <label for="step9"> Переключить на режим "Тушение" (40 мин)</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step10">
+        <label for="step10"> Добавить соль, перец по вкусу</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step11">
+        <label for="step11"> 1.5 ч.л. муки, 1.5 ч.л. сметаны хорошо перемешать и добавить к мясу</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step12">
+        <label for="step12"> Поставить на режим "Тушение" (40 мин)</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step13">
+        <label for="step13"> Готово</label>
+    </li>
+</ul>
 </body>
 </html>

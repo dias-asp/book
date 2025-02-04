@@ -2,9 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Яблочное повидло с апельсинами</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+        table {
+            border-spacing: 20px;
+        }
+        ul {
+            list-style-type: none;
+            gap: 20px;
+        }
+        ul li {
+            margin-bottom: 20px;
+        }
+        input[type=checkbox] {
+            width: 30px; /* Ширина чекбокса */
+            height: 30px; /* Высота чекбокса */
+            margin-right: 10px;
+        }
+        input[type=checkbox]:checked + label {
+            text-decoration: line-through;
+        }
+    </style>
 </head>
 <body>
+<h1>Яблочное повидло с апельсинами</h1>
 
+<table>
+    <thead>
+    <tr>
+        <th>Ингредиенты</th>
+        <th>Количество</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            <input type="checkbox" id="1">
+            <label for="1">Яблоки</label>
+        </td>
+        <td>
+            <label for="1">1кг</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="2">
+            <label for="2">Апельсины</label>
+        </td>
+        <td>
+            <label for="2">2шт</label>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<h3>Шаги приготовления</h3>
+
+<ul>
+    <li>
+        <input type="checkbox" id="step1">
+        <label for="step1">Почистить яблоки от кожуры и семян</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step2">
+        <label for="step2">Нарезать яблоки дольками и выложить в кастрюлю</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step3">
+        <label for="step3">Добавить воды 0.5 стакана</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step4">
+        <label for="step4">Добавить сахар 1 стакан</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step5">
+        <label for="step5">Цедру 1 апельсина натереть в массу</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step6">
+        <label for="step6">Добавить цедру и варить еще 15-20 мин.</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step7">
+        <label for="step7">Очистить апельсин от шкурки и белой прожилки</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step8">
+        <label for="step8">Добавить к яблокам и варить 15 мин.</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step9">
+        <label for="step9">Остудить и взбить в блендере</label>
+    </li>
+</ul>
 </body>
 </html>

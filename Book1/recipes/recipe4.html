@@ -6,7 +6,7 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 20px;
+            font-size: 30px;
         }
         table {
             border-spacing: 20px;
@@ -17,6 +17,11 @@
         }
         ul li {
             margin-bottom: 20px;
+        }
+        input[type=checkbox] {
+            width: 30px; /* Ширина чекбокса */
+            height: 30px; /* Высота чекбокса */
+            margin-right: 10px;
         }
         input[type=checkbox]:checked + label {
             text-decoration: line-through;
@@ -104,6 +109,42 @@
     <tr>
         <td colspan="2" style="font-weight: bold; text-align: center;">Салат из капусты</td>
     </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="9">
+            <label for="9">Полугорький перец</label>
+        </td>
+        <td>
+            <label for="9">2 ч.л.</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="8">
+            <label for="8">Чеснок</label>
+        </td>
+        <td>
+            <label for="8">4-5 зуб.</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="11">
+            <label for="11">Кинза</label>
+        </td>
+        <td>
+            <label for="11">1 пуч.</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="12">
+            <label for="12">Белая приправа</label>
+        </td>
+        <td>
+            <label for="12">0.5 ч.л.</label>
+        </td>
+    </tr>
     </tbody>
 </table>
 
@@ -144,9 +185,47 @@
         <input type="checkbox" id="step8">
         <label for="step8">Добавить к яблокам и варить 15 мин.</label>
     </li>
+    <h4>Салат из капусты</h4>
     <li>
         <input type="checkbox" id="step9">
-        <label for="step9">Остудить и взбить в блендере</label>
+        <label for="step9">Мелко нашинковать капусту, добавить ~1 ст.л. соли</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step10">
+        <label for="step10">Перемешать, но не мять</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step11">
+        <label for="step11">Добавить красный полугорький перец, черный перец, чеснок, белую приправу, уксус ~2 ч.л., сахар, растительное масло ~3-4 ст.л. (наливать на красный перец), кинзу</label>
+    </li>
+    <h1></h1>
+    <li>
+        <input type="checkbox" id="step13">
+        <label for="step13">Яйца взбить, подсолить, добавить 3-4 ст.л. растительного масла</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step14">
+        <label for="step14">Нажарить блинчики, нарезать их соломкой</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step15">
+        <label for="step15">Курицу отделить от костей, мякоть нарвать мелкими кусочками</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step16">
+        <label for="step16">В бульон добавить кубик галина-бланка, сою (до получения цвета чая), белую приправу</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step17">
+        <label for="step17">Выложить лапшу по тарелкам</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step18">
+        <label for="step18"> Сверху отдельно выложить каждый из компонентов, залить все бульоном</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step19">
+        <label for="step19"> Можно добавить кубиками нарезанные помидоры</label>
     </li>
 </ul>
 </body>
