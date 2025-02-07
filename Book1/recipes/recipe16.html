@@ -2,9 +2,145 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Фунчоза</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+        table {
+            border-spacing: 20px;
+        }
+        ul {
+            list-style-type: none;
+            gap: 20px;
+        }
+        ul li {
+            margin-bottom: 20px;
+        }
+        input[type=checkbox] {
+            width: 30px; /* Ширина чекбокса */
+            height: 30px; /* Высота чекбокса */
+            margin-right: 10px;
+        }
+        input[type=checkbox]:checked + label {
+            text-decoration: line-through;
+        }
+    </style>
 </head>
 <body>
+<h1>Фунчоза</h1>
 
+<table>
+    <thead>
+    <tr>
+        <th>Ингредиенты</th>
+        <th>Количество</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            <input type="checkbox" id="1">
+            <label for="1">Лук</label>
+        </td>
+        <td>
+            <label for="1">1 шт</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="2">
+            <label for="2">Морковь средняя </label>
+        </td>
+        <td>
+            <label for="2">2 шт</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="3">
+            <label for="3"> Болгарский перец </label>
+        </td>
+        <td>
+            <label for="3">1 шт</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="4">
+            <label for="4">Редька</label>
+        </td>
+        <td>
+            <label for="4">1 шт</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="5">
+            <label for="5">Кориандр</label>
+        </td>
+        <td>
+            <label for="5">0.5 ч.л.</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="6">
+            <label for="6">Соевый соус</label>
+        </td>
+        <td>
+            <label for="6">1 ч.л.</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="7">
+            <label for="7">Чеснок</label>
+        </td>
+        <td>
+            <label for="7">3 зуб</label>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<h3>Шаги приготовления</h3>
+
+<ul>
+    <h3>Тушить по очереди как только смягчеет:</h3>
+    <li>
+        <input type="checkbox" id="step1">
+        <label for="step1">Лук</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step2">
+        <label for="step2">Морковь</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step3">
+        <label for="step3">Болгарский перец</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step5">
+        <label for="step5">Редька</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step6">
+        <label for="step6">Кинза, чеснок</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step7">
+        <label for="step7">Соль, соевый соус во время тушения</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step8">
+        <label for="step8">Можно приправить рисовым уксусом 1 ч.л.</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step9">
+        <label for="step9">Можно добавить свежий огурец</label>
+    </li>
+</ul>
 </body>
 </html>

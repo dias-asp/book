@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Прага</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+        table {
+            border-spacing: 20px;
+        }
+        ul {
+            list-style-type: none;
+            gap: 20px;
+        }
+        ul li {
+            margin-bottom: 20px;
+        }
+        input[type=checkbox] {
+            width: 30px; /* Ширина чекбокса */
+            height: 30px; /* Высота чекбокса */
+            margin-right: 10px;
+        }
+        input[type=checkbox]:checked + label {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+<h1>Прага</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>Ингредиенты</th>
+        <th>Количество</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            <input type="checkbox" id="1">
+            <label for="1">Маргарин (масло слив)</label>
+        </td>
+        <td>
+            <label for="1">200 гр</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="2">
+            <label for="2">Сгущенка</label>
+        </td>
+        <td>
+            <label for="2">200 гр (1/2 банки)</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="3">
+            <label for="3">Яйца</label>
+        </td>
+        <td>
+            <label for="3">3 шт</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="4">
+            <label for="4">Сметана</label>
+        </td>
+        <td>
+            <label for="4">1 стак</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="5">
+            <label for="5">Сахар</label>
+        </td>
+        <td>
+            <label for="5">1 стак</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="6">
+            <label for="6">Соль</label>
+        </td>
+        <td>
+            <label for="6">Щепотка</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="7">
+            <label for="7">Сода</label>
+        </td>
+        <td>
+            <label for="7">1 ч.л.</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="8">
+            <label for="8">Мука</label>
+        </td>
+        <td>
+            <label for="8">2 стак.</label>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<h3>Шаги приготовления</h3>
+
+<ul>
+    <li>
+        <input type="checkbox" id="step1">
+        <label for="step1">Взбить яйца + сахар + соль</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step2">
+        <label for="step2">Добавить растопленного маргарина</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step3">
+        <label for="step3">Добавить сгущенку</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step4">
+        <label for="step4">Добавить заранее взбитую сметану с содой</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step5">
+        <label for="step5">Замесить тесто как на аладьи</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step6">
+        <label for="step6">Сверху полить глазурью</label>
+    </li>
+</ul>
+
+<h3>Глазурь</h3>
+
+<table>
+    <thead>
+    <tr>
+        <th>Ингредиенты</th>
+        <th>Количество</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            <input type="checkbox" id="11">
+            <label for="11">Сахар</label>
+        </td>
+        <td>
+            <label for="11">2 ст.л.</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="12">
+            <label for="12">Какао</label>
+        </td>
+        <td>
+            <label for="12">1 ст.л.</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="13">
+            <label for="13">Вода</label>
+        </td>
+        <td>
+            <label for="13">2 ст.л.</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="14">
+            <label for="14">Сливочное масло</label>
+        </td>
+        <td>
+            <label for="14">1 ст.л.</label>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<h4>Шаги приготовления</h4>
+
+<ul>
+    <li>
+        <input type="checkbox" id="step11">
+        <label for="step11">Перемешать сахар и какао</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step12">
+        <label for="step12">Добавить воды</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step13">
+        <label for="step13">Поставить на огонь</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step14">
+        <label for="step14">Варить, пока не будет однородная масса</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step15">
+        <label for="step15">Добавить масло</label>
+    </li>
+</ul>
+</body>
+</html>

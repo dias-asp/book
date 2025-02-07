@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Шарлотка</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 30px;
+    }
+    table {
+      border-spacing: 20px;
+    }
+    ul {
+      list-style-type: none;
+      gap: 20px;
+    }
+    ul li {
+      margin-bottom: 20px;
+    }
+    input[type=checkbox] {
+      width: 30px; /* Ширина чекбокса */
+      height: 30px; /* Высота чекбокса */
+      margin-right: 10px;
+    }
+    input[type=checkbox]:checked + label {
+      text-decoration: line-through;
+    }
+  </style>
+</head>
+<body>
+<h1>Шарлотка, мамин рецепт</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th>Ингредиенты</th>
+    <th>Количество</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>
+      <input type="checkbox" id="1">
+      <label for="1">Яйца</label>
+    </td>
+    <td>
+      <label for="1">3-4 шт</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <input type="checkbox" id="2">
+      <label for="2">Кефир</label>
+    </td>
+    <td>
+      <label for="2">1 ст.</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <input type="checkbox" id="3">
+      <label for="3"> Сахар</label>
+    </td>
+    <td>
+      <label for="3">1 ст.</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <input type="checkbox" id="4">
+      <label for="4">Мука</label>
+    </td>
+    <td>
+      <label for="4">1.5 ст.</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <input type="checkbox" id="5">
+      <label for="5">Растительное масло</label>
+    </td>
+    <td>
+      <label for="5">1 ст.л.</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <input type="checkbox" id="6">
+      <label for="6">Гашенная сода</label>
+    </td>
+    <td>
+      <label for="6">1/2 ч.л.</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <input type="checkbox" id="6">
+      <label for="6">Яблоки</label>
+    </td>
+    <td>
+      <label for="6">1.5 кг</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <input type="checkbox" id="6">
+      <label for="6">Сливочное масло</label>
+    </td>
+    <td>
+      <label for="6">50 гр</label>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+<h3>Шаги приготовления</h3>
+
+<ul>
+  <li>
+    <input type="checkbox" id="step1">
+    <label for="step1">Взбить на миксере яйца, кефир, сахар, муку, растит. масло, соду</label>
+  </li>
+  <li>
+    <input type="checkbox" id="step2">
+    <label for="step2">Сделать тесто чуть гуще чем на аладьи. Половину теста выложить на сковородку</label>
+  </li>
+  <li>
+    <input type="checkbox" id="step3">
+    <label for="step3">Добавить большую часть яблок (1кг) </label>
+  </li>
+  <li>
+    <input type="checkbox" id="step4">
+    <label for="step4">Добавить оставшееся тесто и яблоки</label>
+  </li>
+  <li>
+    <input type="checkbox" id="step5">
+    <label for="step5">Для крошки: сливочное масло, сахар, муку перетереть</label>
+  </li>
+  <li>
+    <input type="checkbox" id="step6">
+    <label for="step6">Выложить крошку</label>
+  </li>
+</ul>
+</body>
+</html>

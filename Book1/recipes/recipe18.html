@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Учпучмак</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 30px;
+    }
+    table {
+      border-spacing: 20px;
+    }
+    ul {
+      list-style-type: none;
+      gap: 20px;
+    }
+    ul li {
+      margin-bottom: 20px;
+    }
+    input[type=checkbox] {
+      width: 30px; /* Ширина чекбокса */
+      height: 30px; /* Высота чекбокса */
+      margin-right: 10px;
+    }
+    input[type=checkbox]:checked + label {
+      text-decoration: line-through;
+    }
+  </style>
+</head>
+<body>
+<h1>Учпучмак</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th>Ингредиенты</th>
+    <th>Количество</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>
+      <input type="checkbox" id="1">
+      <label for="1">Маргарин</label>
+    </td>
+    <td>
+      <label for="1">500 гр</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <input type="checkbox" id="2">
+      <label for="2">Сухие дрожжи</label>
+    </td>
+    <td>
+      <label for="2">2 дес.л.</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <input type="checkbox" id="3">
+      <label for="3"> Молоко</label>
+    </td>
+    <td>
+      <label for="3">2 ст.</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <input type="checkbox" id="4">
+      <label for="4">Мука</label>
+    </td>
+    <td>
+      <label for="4"></label>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+<h3>Шаги приготовления</h3>
+
+<ul>
+  <h4>Тесто №1</h4>
+  <li>
+    <input type="checkbox" id="step1">
+    <label for="step1">Маргарин растопить на медленном огне</label>
+  </li>
+  <li>
+    <input type="checkbox" id="step2">
+    <label for="step2">Добавить молоко</label>
+  </li>
+  <li>
+    <input type="checkbox" id="step3">
+    <label for="step3">Добавить дрожжи предварительно растворенные в 1/2 ст. теплой воды</label>
+  </li>
+  <li>
+    <input type="checkbox" id="step4">
+    <label for="step4">Добавить щепотку соли и 4 блюдца с горкой муки</label>
+  </li>
+  <li>
+    <input type="checkbox" id="step5">
+    <label for="step5">Замесить мягкое тесто</label>
+  </li>
+  <h4>Тесто №2</h4>
+  <li>
+    <input type="checkbox" id="step6">
+    <label for="step6">Маргарин порезать в чашке, добавить 4 ст. муки</label>
+  </li>
+  <li>
+    <input type="checkbox" id="step7">
+    <label for="step7">Рубить ножом до образования однородной массы</label>
+  </li>
+  <li>
+    <input type="checkbox" id="step8">
+    <label for="step8">Сделать лунку</label>
+  </li>
+  <li>
+    <input type="checkbox" id="step9">
+    <label for="step9">В лунку добавить 1 взбитое яйцо, 1 ст.л. уксуса, 1 ст. воды</label>
+  </li>
+  <li>
+    <input type="checkbox" id="step10">
+    <label for="step10">Замесить слегка тесто, оставить в холодильник на 30 минут</label>
+  </li>
+</ul>
+</body>
+</html>

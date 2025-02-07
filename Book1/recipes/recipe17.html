@@ -2,9 +2,119 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Наполеон</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+        table {
+            border-spacing: 20px;
+        }
+        ul {
+            list-style-type: none;
+            gap: 20px;
+        }
+        ul li {
+            margin-bottom: 20px;
+        }
+        input[type=checkbox] {
+            width: 30px; /* Ширина чекбокса */
+            height: 30px; /* Высота чекбокса */
+            margin-right: 10px;
+        }
+        input[type=checkbox]:checked + label {
+            text-decoration: line-through;
+        }
+    </style>
 </head>
 <body>
+<h1>Наполеон</h1>
 
+<table>
+    <thead>
+    <tr>
+        <th>Ингредиенты</th>
+        <th>Количество</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            <input type="checkbox" id="1">
+            <label for="1">Маргарин</label>
+        </td>
+        <td>
+            <label for="1">400 гр</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="2">
+            <label for="2">Мука</label>
+        </td>
+        <td>
+            <label for="2">3 ст.</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="3">
+            <label for="3"> Сливочное масло</label>
+        </td>
+        <td>
+            <label for="3">200 гр</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="4">
+            <label for="4">Сгущенка</label>
+        </td>
+        <td>
+            <label for="4">1 б.</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="5">
+            <label for="5">Уксус</label>
+        </td>
+        <td>
+            <label for="5">1 ст.л.</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="6">
+            <label for="6">Яйца</label>
+        </td>
+        <td>
+            <label for="6">1 шт.</label>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<h3>Шаги приготовления</h3>
+
+<ul>
+    <li>
+        <input type="checkbox" id="step1">
+        <label for="step1">Порубить маргарин и муку</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step2">
+        <label for="step2">Сделать лунку, в нее налить 200мл воды, уксуса, яйцо и перемешать</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step3">
+        <label for="step3">Замешать тесто</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step4">
+        <label for="step4">Для начинки: на 200гр. сливочного масла идет 1б. сгущенки</label>
+    </li>
+</ul>
 </body>
 </html>
