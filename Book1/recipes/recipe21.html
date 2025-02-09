@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Губадия</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+        table {
+            border-spacing: 20px;
+        }
+        ul {
+            list-style-type: none;
+            gap: 20px;
+        }
+        ul li {
+            margin-bottom: 20px;
+        }
+        input[type=checkbox] {
+            width: 30px; /* Ширина чекбокса */
+            height: 30px; /* Высота чекбокса */
+            margin-right: 10px;
+        }
+        input[type=checkbox]:checked + label {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+<h1>Губадия</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>Ингредиенты</th>
+        <th>Количество</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            <input type="checkbox" id="1">
+            <label for="1">Маргарин</label>
+        </td>
+        <td>
+            <label for="1"> 250 гр</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="2">
+            <label for="2">Сахар</label>
+        </td>
+        <td>
+            <label for="2">1 ст.</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="3">
+            <label for="3"> Яйца</label>
+        </td>
+        <td>
+            <label for="3">2 шт</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="4">
+            <label for="4">Сметана</label>
+        </td>
+        <td>
+            <label for="4">1 ст.</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="5">
+            <label for="5">Сода</label>
+        </td>
+        <td>
+            <label for="5">1/2 ч.л.</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="6">
+            <label for="6">Мука</label>
+        </td>
+        <td>
+            <label for="6">4 ст.</label>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<h3>Шаги приготовления</h3>
+
+<ul>
+    <li>
+        <input type="checkbox" id="step1">
+        <label for="step1">Растереть маргарин и сахар</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step2">
+        <label for="step2">Добавить яйца, хорошо перемешать до однородной массы</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step3">
+        <label for="step3">Добавить сметану, соду загасить в сметане</label>
+    </li>
+    <li>
+        <input type="checkbox" id="step4">
+        <label for="step4">Замесить мягкое тесто</label>
+    </li>
+</ul>
+
+
+<h2>Начинка - выложить слоями</h2>
+
+<table>
+    <tbody>
+    <tr>
+        <td>
+            <input type="checkbox" id="11">
+            <label for="11">Иримшик</label>
+        </td>
+        <td>
+            <label for="11"> 700 гр</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="12">
+            <label for="12">Яйца</label>
+        </td>
+        <td>
+            <label for="12">6шт крупных</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="13">
+            <label for="13"> Рис отварной</label>
+        </td>
+        <td>
+            <label for="13">3 ст.л.</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="14">
+            <label for="14">Изюм замоченный</label>
+        </td>
+        <td>
+            <label for="14">1 мал. пиала</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="15">
+            <label for="15">Масло сливочное</label>
+        </td>
+        <td>
+            <label for="15">100 гр</label>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
